@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d91109ed56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo(3).png" class="logo">
+                
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu"></i>
+                </ul>
+                <i class="fas fa-bars " onclick="openmenu"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Final Year Student</p>
+                <h1>Hi,I'm <span>Akanksha</span><br></h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/akanksha.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A well-organized, creative and goal oriented graduate
+                        possessing excellent communication, problem-solving
+                        and leadership skills with a flair to explore suitable
+                        avenues in Computer Science Engineering while
+                        developing advanced projects with efficiency and
+                        quality.</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>LANGUAGES</span><br>C/C++,Java,Javascript</li>
+                                <li><span>DATABASES</span><br>MYSQL</li>
+                                <li><span>SOFTWARE DEVELOPMENT</span><br>HTML,CSS,Bootstrap,Node.JS,React.JS</li>
+                                <li><span>PROBLEM SOLVING</span><br>Data Structures and Algoritms</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>FEB 2022-MAY-2022</span><br>Open Source developer at Highradius</li>
+                               
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>Bachelors in Computer Science at Chandigarh University </li>
+                                <li><span>2016-2018</span><br>Intermediate(CBSE) from GBSS</li>
+                                <li><span>2015-2016</span><br>Matriculation(CBSE) from EPS</li>
+                               
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!----------------------------portfolio------------>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/women banking system.jpg">
+                    <div class="layer">
+                        <h3>Easy Banking for Labour Women</h3>
+                        <h5>MAR'2022-CURRENT</h5><br>
+                        <p>App for women and ladies that encourages them to save at small capital amount 
+                            towards personal goals.  
+                            The proposed system will show the accumulated 
+                            capital for specific goals in 
+                            life i.e. Daughters marriage, 
+                            Family emergencies etc. and 
+                            help them predict if they 
+                            would be meeting their 
+                            goals. App should be able to 
+                            perform basic banking 
+                            facilities. 
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/b2b.jpg">
+                    <div class="layer">
+                        <h3>B2B Invoice Managment System</h3>
+                        <h5>FEB'2022-APR'2022</h5><br>
+                        <p>Designed a web page where the seller can track all the basic deatils 
+                            about the customer and can also track wheather the payment is done on time or not.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sales_insight.jpg">
+                    <div class="layer">
+                        <h3>Sales Insights-Hardware Business</h3>
+                        <h5>AUG'2022-SEPT'2022</h5><br>
+                        <p>Designed a POwer BI dashboard to understand the sales of hardware goods
+                            and motor busisness.The final dashboard will be effectively displaying the sales trend of hardware allowing
+                            users to understand the data and make informed decisions.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download(3).jpg">
+                    <div class="layer">
+                        <h3>ONLINE FOOD ORDERING</h3>
+                        <h5>APR'2022-JUNE'2022</h5><br>
+                        <p>Designed a full stack web development project Customers can create an account or 
+                            log in as a guest to place orders, select their desired payment method, and track 
+                            their delivery status in real-time. The website may also offer features such as customized
+                             order options, order history, and the ability to save favorite restaurants or meals.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.jpg">
+                    <div class="layer">
+                        <h3>PREDICT WEATHER CONDITIONS</h3>
+                        <h5>JUN'2020-JULY'2020</h5><br>
+                        <p>Designed a page using HTML,CSS,JAVASCRIPT and API'S so that one can predict the upcoming
+                            weather condition fo rthe next few days.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!------<a href="#" class="btn">See more</a>---------->
+        </div>
+
+    </div>
+
+    <!-------------CONTACT----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>akankshaa150@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>xxxxxxx788</p>
+
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form class="contact_form" action="#">
+                        <input id="name" type="text" name="Name" placeholder="Your Name" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                        <textarea id="msg" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button id="butn" type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Akanksha</p>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        const form=
+    </script>
+    
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right =  "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
